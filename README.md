@@ -1,6 +1,6 @@
 # 🚀 CJLogViewer
 
-A premium, high-performance desktop application built with Electron and React to analyze and visualize **CJ/Claude chat logs**. 
+A premium, high-performance desktop application built with Electron and React to analyze and visualize **Claude chat logs** with *jsonl* format. 
 
 Designed for developers who need to review their AI interactions with clarity, depth, and a modern aesthetic.
 
@@ -8,7 +8,7 @@ Designed for developers who need to review their AI interactions with clarity, d
 
 ## ✨ Key Features
 
-- **🧠 Advanced Log Parsing**: Supports the complex, nested JSONL schema used by modern CJ/Claude logs.
+- **🧠 Advanced Log Parsing**: Supports the complex, nested JSONL schema used by modern Claude logs.
 - **📦 Conversation Grouping**: Automatically groups fragmented log lines (text, thinking, and tool use) into cohesive "Conversation Cards" using internal Request IDs.
 - **💭 Thinking Process**: Dedicated collapsible sections for the AI's internal "Thinking" monologue, allowing for deep dives without cluttering the main flow.
 - **🛠️ Tool Use Visualization**: Beautifully formatted blocks for tool calls (Bash, Search, etc.) showing exactly what parameters were used.
@@ -58,7 +58,7 @@ npm start
 
 1. Launch the application.
 2. Click the **"Open Log"** button in the header.
-3. Select any `.jsonl` CJ log file (e.g., `CursorLog02.jsonl`).
+3. Select any `.jsonl` Claude Code log file (e.g., `ClaudeCodeLog02.jsonl`).
 4. Use the **Search Bar** to filter specific commands, concepts, or thinking blocks.
 5. Click **"Thinking Process"** on any assistant message to see the AI's internal reasoning.
 
